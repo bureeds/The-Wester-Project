@@ -2,7 +2,7 @@
 #### Tools for browser game The-West using Python Selenium.
 
 ## Disclaimer 
-####for educational purposes only.
+#### For educational purposes only.
 
 ## Functions:
 #### Scripts installation
