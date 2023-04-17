@@ -29,10 +29,8 @@ def login_menu():
                     print(f'Password: {password}')
             return username, password
         case "2":
-            print("Enter login:")
-            username = input()
-            print("Enter Password:")
-            password = input()
+            username = input("Enter login: ")
+            password = input("Enter password: ")
 
             print("Want to save account?")
             print("1 - Yes")
@@ -57,7 +55,7 @@ def login(driver, username, password):
     print(f'{Colors.blue}[INFO]{Colors.white}[LOGIN] {Colors.blue}SELECTING WORLD{Colors.default}')
     config = ConfigParser()
     config.read('config.ini')
-    world = config.get('game', 'server')
+    world = config.get('game', 'world')
     time.sleep(2)
     try:
         driver.find_element(By.LINK_TEXT, world).click()
