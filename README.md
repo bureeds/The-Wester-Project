@@ -1,2 +1,2 @@
 # The-Wester-Project
-for educational purposes only / don't sue me
+Bot and tools for browser game using Selenium. also my first python project.
